@@ -7,7 +7,7 @@
     "selenium",
     "webdriver"
   ],
-  "version": "2.1.2",
+  "version": "2.3.0",
   "scripts": {
     "test": "jest",
     "lint": "eslint ./src",
@@ -24,17 +24,17 @@
     "dist/"
   ],
   "peerDependencies": {
-    "jest": ">=23.0.0",
-    "jest-environment-node": "^23.1.0",
-    "selenium-webdriver": "4.0.0-alpha.1"
+    "jest": ">=27.3.1",
+    "jest-environment-node": "^27.3.1",
+    "selenium-webdriver": "4.0.0"
   },
   "devDependencies": {
-    "babel-cli": "^6.26.0",
-    "babel-eslint": "^8.2.3",
-    "babel-jest": "^23.0.1",
-    "babel-preset-node6": "^11.0.0",
-    "eslint": "^4.19.1",
-    "eslint-plugin-jest": "^21.17.0",
-    "jest": "^23.1.0"
+    "babel-cli": "^7.15.7",
+    "babel-eslint": "^10.1.0",
+    "babel-jest": "^27.3.1",
+    "babel-preset-node6": "^11.0.0", <!--THIS IS REALLY OLD
+    "eslint": "^8.0.1",
+    "eslint-plugin-jest": "^25.2.2",
+    "jest": "^27.3.1"
   }
 }
